@@ -1,0 +1,31 @@
+{
+  "name": "nightbot-oauth-redirector",
+  "version": "1.0.0",
+  "description": "Simple web thing to redirect HTTPS-only Nightbot OAuth to a web server running locally. ",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "npm run webpack",
+    "clean": "rimraf dist",
+    "prettier": "prettier --write \"{src,__tests__,__mocks__}/**/*.{js,jsx,ts,tsx,md}\"",
+    "webpack": "webpack",
+    "serve": "webpack serve --mode=development"
+  },
+  "author": "TheAppleFreak",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^6.10.0",
+    "css-minimizer-webpack-plugin": "^6.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.8.1",
+    "mvp.css": "^1.14.0",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.5",
+    "style-loader": "^3.3.4",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  }
+}
