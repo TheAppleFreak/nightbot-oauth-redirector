@@ -1,0 +1,13 @@
+:root {
+    --width-card: 100%;
+    --width-card-medium: 100%;
+    --width-card-wide: 100%;
+}
+
+form {
+    box-sizing: border-box;
+}
+
+table tr:nth-child(even) {
+    background-color: revert;
+}

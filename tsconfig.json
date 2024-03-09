@@ -4,6 +4,8 @@
     "noImplicitAny": true,
     "module": "NodeNext",
     "target": "ES2021",
-    "moduleResolution": "NodeNext"
+    "moduleResolution": "NodeNext",
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
   }
 }

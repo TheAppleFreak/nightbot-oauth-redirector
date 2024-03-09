@@ -6,7 +6,7 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 module.exports = {
     mode: "production",
     entry: {
-        index: "./src/index.ts"
+        index: "./src/index.tsx"
     },
     module: {
         rules: [
